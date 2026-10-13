@@ -1,0 +1,37 @@
+{
+  "source": "Synthetic scanner/STIG-inspired dataset",
+  "findings": [
+    {
+      "asset_id": "LAB-VM-01",
+      "finding_id": "V-DEMO-001",
+      "evidence_id": "SYN-E-001",
+      "severity": "High",
+      "title": "Unsupported TLS protocol",
+      "owner": "Platform Team"
+    },
+    {
+      "asset_id": "LAB-VM-01",
+      "finding_id": "V-DEMO-001",
+      "evidence_id": "SYN-E-002",
+      "severity": "High",
+      "title": "Unsupported TLS protocol",
+      "owner": "Platform Team"
+    },
+    {
+      "asset_id": "LAB-VM-02",
+      "finding_id": "V-DEMO-002",
+      "evidence_id": "SYN-E-003",
+      "severity": "Critical",
+      "title": "Missing critical security patch",
+      "owner": "Windows Team"
+    },
+    {
+      "asset_id": "LAB-VM-03",
+      "finding_id": "V-DEMO-003",
+      "evidence_id": "SYN-E-004",
+      "severity": "Medium",
+      "title": "Configuration baseline drift",
+      "owner": "Linux Team"
+    }
+  ]
+}
